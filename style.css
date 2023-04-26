@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('bgimg.jpg');
+    /* background-size: 2500px; */
+    /* height: 4444px; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+    /* border: red 2px solid; */
+
+}
+
+.left img {
+    width: 111px;
+    /* float: center; */
+    filter: invert();
+
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 30px auto;
+    /* border: yellow 2px solid; */
+}
+
+.right {
+    position: absolute;
+    right: 35px;
+    display: inline-block;
+    /* border: green 2px solid; */
+    margin: 20px;
+    top: 20px;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    /* width: 5000px; */
+    margin: 0px 6px;
+    color: white;
+    /* display: inline-block; */
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    margin: 9px;
+    color: white;
+    /* border: aqua 2px solid; */
+    background-color: rgba(9, 9, 127, 0.622);
+    padding: 8px 18px;
+    /* border: 4px solid yellow; */
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 40px;
+
+}
+
+.btn:hover {
+    background-color: rgb(43, 98, 226);
+
+}
+
+.container {
+    border: 5px solid white;
+    margin: 75px 80px;
+    padding: 40px 110px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.formgroup input {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+    width: 80%;
+    padding: 5px 38px;
+    margin: 10px auto;
+    font-size: 25px;
+    border: 4px solid white;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    color: rgb(43, 98, 226);
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.container button{
+    padding: 15px;
+    display: block;
+    margin: auto;
+    width: 95%;
+    
+}
